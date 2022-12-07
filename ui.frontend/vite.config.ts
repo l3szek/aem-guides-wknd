@@ -40,10 +40,6 @@ export default defineConfig(({ command, mode }) => ({
     manifest: false,
     minify: mode === 'development' ? false : 'terser',
     outDir: 'dist',
-    /* path.join(
-      __dirname,
-      'target/vault-work/jcr_root/apps/settings/wcm/design/aem-product-selection-tools'
-    ), */
     sourcemap: command === 'serve' ? 'inline' : false,
     rollupOptions: {
       output: {
