@@ -103,6 +103,13 @@
     <!-- ====================================================================== -->
     <dependencies>
         <dependency>
+            <groupId>dev.aemvite</groupId>
+            <artifactId>aem-vite.all</artifactId>
+            <type>zip</type>
+            <version>2.3.0</version>
+        </dependency>
+
+        <dependency>
             <groupId>com.adobe.aem.guides</groupId>
             <artifactId>aem-guides-wknd.core</artifactId>
             <version>${project.version}</version>
